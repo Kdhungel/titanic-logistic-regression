@@ -46,3 +46,16 @@ This project was built as a **learning-focused baseline**, with emphasis on:
 - explainability
 
 Every step can be explained line by line.
+
+## Model Interpretation
+
+After training the model, the learned coefficients were inspected to understand how each feature influences survival probability.
+
+- A positive coefficient indicates that increasing the feature increases survival probability.
+- A negative coefficient indicates that increasing the feature decreases survival probability.
+
+In this model:
+
+- Sex has the strongest positive influence on survival.
+- Passenger class has a negative influence (lower class → lower survival probability).
+- Age has a small negative influence on survival.
